@@ -3,18 +3,6 @@ import parse from "html-react-parser";
 import { getDetail, getList } from "../../../libs/microcms";
 import { formatDate } from "@/libs/dayjs";
 
-export async function generateParams() {
-  const { contents } = await getList();
-
-  const paths = contents.map((post) => {
-    return {
-      postId: post.id,
-    };
-  });
-
-  return [...paths];
-}
-
 export default async function DetailPage({
   params: { postId },
 }: {

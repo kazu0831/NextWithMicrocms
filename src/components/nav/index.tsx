@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="border-b-2 bg-slate-100 bg-opacity-50">
       <div className="container p-5">
-        <Link className="text-2xl font-bold text-white" href="/blog">
+        <Link className="text-2xl font-bold text-white" href="/">
           Kz blog
         </Link>
       </div>

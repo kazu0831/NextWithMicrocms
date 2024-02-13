@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="border-t-2 h-48 bg-slate-100 bg-opacity-50">
       <div className="p-5 flex flex-col items-center justify-center">
-        <Link className="text-white text-2xl font-bold" href="/blog">
+        <Link className="text-white text-2xl font-bold" href="/">
           Kz blog
         </Link>
 
@@ -21,7 +21,7 @@ const Footer = () => {
           </li>
 
           <li className="text-center text-lg hover:underline">
-            <Link className="text-white" href="/blog">
+            <Link className="text-white" href="/">
               Services(準備中)
             </Link>
           </li>
